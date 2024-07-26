@@ -1,0 +1,25 @@
+window#waybar {
+  background-color: transparent;
+  color: white;
+}
+
+.modules-left {
+ background-color: #000;
+ opacity:0.6;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.modules-center {
+ background-color: #000;
+ opacity: 0.6;
+ border-radius:10px;
+ padding: 10px;
+}
+
+.modules-right {
+ opacity: 0.6;
+ background-color: #000;
+ border-radius:10px;
+ padding:10px;
+}
