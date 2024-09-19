@@ -1,0 +1,1 @@
+A Hyprland Arch rice
