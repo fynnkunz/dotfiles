@@ -16,12 +16,11 @@
 	"interval": 1
   },
   "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format": "{capacity}%"
   },
   "pulseaudio": {
   	"format": "{volume}% {icon}",
-  	"format-bluetooth": "{volume}% {icon}",
+  	"format-bluetooth": "{volume}%",
   	"format-muted": "",
   	"format-icons": {
   		"headphones": "",
@@ -37,12 +36,12 @@
   },
   "cpu": {
   	"interval": 1,
-  	"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
+  	"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}%",
   	"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
   },
   "memory": {
   	"interval": 30,
-  	"format": "{}% ",
+  	"format": "{}%",
   	"max-length": 10
   }
 }
