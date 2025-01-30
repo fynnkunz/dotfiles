@@ -1,21 +1,16 @@
 window {
-  background: #fff;
-	border-radius: 10px;
+  /*background-color: rgba (0, 0, 0, 0.8);*/
+  background: #000;
+    opacity: 0.5;
+	border-radius: 15px;
 	border-style: none;
 	border-width: 1px;
-	border-color: rgba(156, 142, 122, 0.7)
+	border-color: rgba (156, 142, 122, 0.7)
 }
 
 #box {
   /* Define attributes of the box surrounding icons here */
-  padding: 10px;
-  margin: 10px
-}
-
-#active {
-	/* This is to underline the button representing the currently active window */
-	border-bottom: solid 1px;
-	border-color: rgba(255, 255, 255, 0.3)
+  padding: 10px
 }
 
 button, image {
@@ -26,6 +21,8 @@ button, image {
 }
 
 button {
+	/*padding-left: 4px;
+	padding-right: 4px;*/
 	padding: 4px;
 	margin-left: 4px;
 	margin-right: 4px;
@@ -34,10 +31,10 @@ button {
 }
 
 button:hover {
-	background-color: rgba(255, 255, 255, 0.15);
+	background-color: rgba (255, 255, 255, 0.15);
 	border-radius: 2px;
 }
 
 button:focus {
-	box-shadow: none
+	box-shadow: 0 0 2px;
 }
