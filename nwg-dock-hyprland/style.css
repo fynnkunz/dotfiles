@@ -10,7 +10,8 @@ window {
 
 #box {
   /* Define attributes of the box surrounding icons here */
-  padding: 10px
+  padding: 10px;
+  opacity: 1
 }
 
 button, image {
